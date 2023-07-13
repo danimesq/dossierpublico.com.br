@@ -1,0 +1,4 @@
+chown -h 1000:1000 './noempty.txt'
+chmod 0664 './noempty.txt'
+/usr/bin/touch -hcmd "2023-07-13 12:55:48.6171864410 -0300" './noempty.txt'
+/usr/bin/touch -hcad "2023-07-13 12:55:48.6171864410 -0300" './noempty.txt'
